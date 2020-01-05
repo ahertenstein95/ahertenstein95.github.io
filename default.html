@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8" />
+	<title>StudentWebHosting.com Default Page</title>
+	<link href="http://fonts.googleapis.com/css?family=Anaheim" rel="stylesheet">
+
+		
+		<style type="text/css">
+		
+		/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+		html {
+		    font-family: sans-serif;
+		    -ms-text-size-adjust: 100%;
+		    -webkit-text-size-adjust: 100%
+		}
+
+		body {
+		    margin: 0
+		}
+
+		article, aside, details, figcaption, figure, footer, header, hgroup,
+		main, nav, section, summary {
+		    display: block
+		}
+
+		audio, canvas, progress, video {
+		    display: inline-block;
+		    vertical-align: baseline
+		}
+
+		audio:not([controls]) {
+		    display: none;
+		    height: 0
+		}
+
+		[hidden], template {
+		    display: none
+		}
+
+		a {
+		    background: transparent
+		}
+
+		a:active, a:hover {
+		    outline: 0
+		}
+
+		abbr[title] {
+		    border-bottom: 1px dotted
+		}
+
+		b, strong {
+		    font-weight: bold
+		}
+
+		dfn {
+		    font-style: italic
+		}
+
+		h1 {
+		    font-size: 2em;
+		    margin: .67em 0
+		}
+
+		mark {
+		    background: #ff0;
+		    color: #000
+		}
+
+		small {
+		    font-size: 80%
+		}
+
+		sub, sup {
+		    font-size: 75%;
+		    line-height: 0;
+		    position: relative;
+		    vertical-align: baseline
+		}
+
+		sup {
+		    top: -0.5em
+		}
+
+		sub {
+		    bottom: -0.25em
+		}
+
+		img {
+		    border: 0
+		}
+
+		svg:not(:root) {
+		    overflow: hidden
+		}
+
+		figure {
+		    margin: 1em 40px
+		}
+
+		hr {
+		    -moz-box-sizing: content-box;
+		    box-sizing: content-box;
+		    height: 0
+		}
+
+		pre {
+		    overflow: auto
+		}
+
+		code, kbd, pre, samp {
+		    font-family: monospace, monospace;
+		    font-size: 1em
+		}
+
+		button, input, optgroup, select, textarea {
+		    color: inherit;
+		    font: inherit;
+		    margin: 0
+		}
+
+		button {
+		    overflow: visible
+		}
+
+		button, select {
+		    text-transform: none
+		}
+
+		button, html input[type="button"], input[type="reset"], input[type="submit"] {
+		    -webkit-appearance: button;
+		    cursor: pointer
+		}
+
+		button[disabled], html input[disabled] {
+		    cursor: default
+		}
+
+		button::-moz-focus-inner, input::-moz-focus-inner {
+		    border: 0;
+		    padding: 0
+		}
+
+		input {
+		    line-height: normal
+		}
+
+		input[type="checkbox"], input[type="radio"] {
+		    box-sizing: border-box;
+		    padding: 0
+		}
+
+		input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+		    height: auto
+		}
+
+		input[type="search"] {
+		    -webkit-appearance: textfield;
+		    -moz-box-sizing: content-box;
+		    -webkit-box-sizing: content-box;
+		    box-sizing: content-box
+		}
+
+		input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+		    -webkit-appearance: none
+		}
+
+		fieldset {
+		    border: 1px solid silver;
+		    margin: 0 2px;
+		    padding: .35em .625em .75em
+		}
+
+		legend {
+		    border: 0;
+		    padding: 0
+		}
+
+		textarea {
+		    overflow: auto
+		}
+
+		optgroup {
+		    font-weight: bold
+		}
+
+		table {
+		    border-collapse: collapse;
+		    border-spacing: 0
+		}
+
+		td, th {
+		    padding: 0
+		}
+
+
+
+		html { background:#d8d8d8; }
+		html.full { background:transparent; }
+		body {
+			margin:0 auto;
+			background:#303030;
+			font-family:'Anaheim',sans-serif;
+		}
+		main { position:relative; }
+		body > h1, main > h1 { padding-top:8%; }
+		h1, h2 {
+			margin:0;
+			text-align:center;
+			color:#d8d8d8;
+			text-shadow:0 3px 2px rgba(0, 0, 0, 0.8);
+		}
+		h1 { font-size:2.5em; }
+		h2 { font-size:1.5em; }
+		abbr[title] { border-bottom:none; }
+		a {
+			color:#ae4949;
+			text-decoration:none;
+		}
+		a:hover { text-decoration:underline; }
+		a:visited { color:#928280; }
+		footer a { color:#a60400; }
+		h1 a { color:#d8d8d8; }
+		h1 a:hover { text-decoration:none; }
+		h1 a:visited { color:#d8d8d8; }
+		section {
+			margin:2em auto;
+			width:95%;
+		}
+		section > h3 {
+			color:#d8d8d8;
+			position:absolute;
+		    top:-9999px;
+		    left:-9999px;
+		}
+		.buttons {
+			text-align:center;
+			overflow:hidden;
+			margin-bottom:1em;
+		}
+		p, ul { color:#d8d8d8; }
+		ul {
+			list-style-type:none;
+			padding:0;
+		}
+		li { padding:.3em 0; }
+		.download, .github {
+			text-align:center;
+			margin:0 0.6em 1em
+		}
+		.button {
+			padding:1em;
+			color:#d8d8d8;	
+			background:#537577;
+			font-weight:bold;
+			display:block;
+			-moz-box-shadow:3px 3px 5px 3px #222;
+			-webkit-box-shadow:3px 3px 5px 3px #222;
+			box-shadow:3px 3px 5px 3px #222;
+		}
+		.button:hover {
+			text-decoration:none;
+			opacity:0.9;
+		}
+		.button .version { font-weight:normal; }
+		footer {
+		   left:0px;
+		   bottom:0px;
+		   height:100px;
+		   width:100%;
+		   color:#303030;
+		   text-align:center;
+		   background:#d8d8d8;
+		   padding-top:1em;
+		}
+		footer p {
+			color:#303030;
+			font-size:.8em;
+		}
+
+		@media only screen and (min-width:36em) {
+		    h1 {	font-size:4em; }
+			h2 { font-size:2em; }
+			section { width:60%; }
+			.buttons { margin:0 auto 2em; }
+			.download, .github {
+				float:left;
+				width:44%;
+			}
+		}
+		
+		</style>
+</head>
+<body>
+	<main class="wrap" role="main">
+		<h1><a href="http://studentwebhosting.com">StudentWebHosting.com</a></h1>
+		<h2>Setup Instructions</h2>
+		
+		<section>
+			<ul>
+				<li>
+					Congrats, your site is configured and ready to upload and customize!
+				</li>
+				<li>
+					This page is the default.html page, located inside of your 'public_html' folder on your account. You will need to delete this file, or add a file called 'index.html' (which will override this one) to your public_html directory.
+				</li>
+					If you're uploading your own custom website files and scripts via FTP, make sure that you upload all of the files into the 'public_html' directory! This where they must be uploaded in order to be accessible via your domain name.
+				<li>
+					If you would like to set up your site via the free website builder scripts (such as WordPress), you can login to your cPanel account and access the 'Softcaculous App Installer' section (near the bottom) and access WordPress (among others) from there.
+				</li>	
+				
+			</ul>
+		</section>
+		
+		<section class="buttons">
+			<div class="download">
+				<a class="button" href="http://studentwebhosting.com/cpanel">Login to cPanel</a>
+			</div>
+			<div class="github">
+				<a class="button" href="http://studentwebhosting.com/members/index.php?fuse=knowledgebase&controller=articles&view=main">Help Center Articles</a>
+			</div>
+		</section>
+
+	</main>
+	
+	<footer>
+		<a href="https://twitter.com/StudentWebHosts" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @StudentWebHosts</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		
+	</footer>
+	
+	
+</body>
+</html>
